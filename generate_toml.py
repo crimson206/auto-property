@@ -233,7 +233,8 @@ options = Options(
 )
 
 dependencies = """
-
+crimson-templator==0.2.2
+crimson-types-beta
 """
 
 
@@ -245,7 +246,7 @@ dependencies = split_dependencies(dependencies)
 
 # Define the general information of your package
 
-repo_name = module_name = "module_name"
+repo_name = module_name = "auto-property"
 
 kwargs = Kwargs(
     name="Sisung Kim",
